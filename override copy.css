@@ -1,0 +1,3 @@
+.main-summary p + p {
+    margin-top: 0.5rem !important;
+}
