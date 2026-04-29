@@ -106,27 +106,41 @@
         if (!response.ok) throw new Error(`Erro ao carregar ${file}`);
         
         const html = await response.text();
-        const parser = new DOMParser();
-        const doc = parser.parseFromString(html, 'text/html');
         
-        // Extrair apenas o conteúdo do <body>
-        const bodyContent = doc.body;
+        // Remover estilos do resume anterior
+        document.head.querySelectorAll('[data-resume-style]').forEach(style => {
+          style.remove();
+        });
         
-        // Limpar e adicionar novo conteúdo
-        contentContainer.innerHTML = '';
-        while (bodyContent.firstChild) {
-          contentContainer.appendChild(bodyContent.firstChild);
+        // Extrair estilos usando regex
+        const styleRegex = /<style[^>]*>([\s\S]*?)<\/style>/gi;
+        let styleMatch;
+        while ((styleMatch = styleRegex.exec(html)) !== null) {
+          const styleTag = document.createElement('style');
+          styleTag.textContent = styleMatch[1];
+          styleTag.setAttribute('data-resume-style', 'true');
+          document.head.appendChild(styleTag);
         }
         
-        // Copiar estilos da <head>
-        const styles = doc.head.querySelectorAll('style, link[rel="stylesheet"]');
-        styles.forEach(style => {
-          if (!document.head.querySelector(`[data-source="${file}"]`)) {
-            const clone = style.cloneNode(true);
-            clone.setAttribute('data-source', file);
-            document.head.appendChild(clone);
+        // Extrair links CSS
+        const linkRegex = /<link[^>]+rel=["']stylesheet["'][^>]*>/gi;
+        let linkMatch;
+        while ((linkMatch = linkRegex.exec(html)) !== null) {
+          const link = document.createElement('link');
+          const hrefMatch = linkMatch[0].match(/href=["']([^"']+)["']/i);
+          if (hrefMatch) {
+            link.rel = 'stylesheet';
+            link.href = hrefMatch[1];
+            link.setAttribute('data-resume-style', 'true');
+            document.head.appendChild(link);
           }
-        });
+        }
+        
+        // Extrair conteúdo do <body>
+        const bodyMatch = html.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
+        if (bodyMatch) {
+          contentContainer.innerHTML = bodyMatch[1];
+        }
         
         // Atualizar idioma do HTML
         htmlRoot.lang = lang;
