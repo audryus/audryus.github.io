@@ -1,0 +1,495 @@
+{
+  "meta": {
+    "theme": {
+      "fontFamily": "Inter, sans-serif"
+    }
+  },
+  "basics": {
+    "name": "Audryus Leite",
+    "label": "Senior Backend Engineer | Sistemas Distribuídos | Java & Go | AWS",
+    "email": "audryus@gmail.com",
+    "phone": "+55 13 996644165",
+    "summary": "Senior Backend Engineer com mais de 15 anos de experiência projetando e evoluindo sistemas distribuídos de alta demanda, com foco em performance, escalabilidade e resiliência.\n\nAtuo principalmente na construção de APIs e microsserviços em Java e Go, com forte experiência em processamento assíncrono, mensageria e integração entre sistemas. Ao longo da carreira, lidei com cenários reais de alto volume, otimizando sistemas críticos (ex: redução de tempo de resposta de 13 minutos para 2 minutos) e implementando soluções para controle de concorrência, filas e cache.\n\nExperiência sólida em cloud (AWS e Azure), incluindo Lambda, ECS Fargate, DynamoDB, SQS e observabilidade com OpenTelemetry. Forte atuação em identificação de gargalos, simplificação de arquitetura e melhoria contínua de sistemas legados.",
+    "location": {
+      "city": "Santos",
+      "region": "São Paulo",
+      "countryCode": "BR"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "audryus",
+        "url": "https://github.com/audryus"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "audryus",
+        "url": "https://www.linkedin.com/in/audryus"
+      },
+      {
+        "network": "WhatsApp",
+        "username": "audryus",
+        "url": "https://wa.me/13996644165"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "GFT Technologies",
+      "position": "Backend Engineer",
+      "startDate": "2024-10",
+      "location": "Remote",
+      "summary": "Desenvolvimento de microsserviços e APIs para sistemas de pagamento e análise de risco em ambiente cloud.",
+      "highlights": [
+        "Desenvolvimento de microsserviços em Java (Spring Boot) e Go para processamento de pagamentos e análise de risco",
+        "Implementação de fluxo assíncrono para cálculo de score com DynamoDB e SQS, incluindo suporte a polling e callbacks",
+        "Modelagem de APIs assíncronas (request + UUID + status), melhorando resiliência e desacoplamento",
+        "Instrumentação de observabilidade com OpenTelemetry (tracing, métricas e logs distribuídos)",
+        "Automação de infraestrutura AWS com Go (API Gateway, tagging e padronização de serviços)",
+        "Implementação de testes (TDD) com cobertura e suporte a testes de segurança (pentest)"
+      ],
+      "keywords": [
+        "Java 17/21",
+        "Go",
+        "GitHub Copilot",
+        "Spring Boot",
+        "Lambda",
+        "ECS Fargate",
+        "DynamoDB",
+        "SQS",
+        "Microservices",
+        "REST APIs",
+        "Observability",
+        "TDD",
+        "Pentesting"
+      ]
+    },
+    {
+      "name": "Redspark.io",
+      "position": "Senior Backend Engineer",
+      "startDate": "2021-07",
+      "endDate": "2024-09",
+      "location": "Remote",
+      "summary": "Desenvolvimento e evolução de sistemas de alta demanda para agendamento, eventos e relacionamento digital, com foco em performance, escalabilidade e resiliência.",
+      "highlights": [
+        "Desenvolvimento de múltiplos sistemas backend em Java (Spring Boot) para plataformas de alta demanda",
+        "Redução de tempo de resposta de ~13 minutos para ~2 minutos através de otimizações de acesso a dados (remoção de ORM e uso de SQL otimizado)",
+        "Implementação de arquitetura assíncrona com mensageria para desacoplamento entre sistemas online e administrativos",
+        "Desenvolvimento de sistema de filas em Redis para controle de concorrência sob alta carga",
+        "Uso de Redis como cache para redução de carga no banco de dados e melhoria de performance",
+        "Prova de conceito com Kafka para processamento assíncrono de pagamentos, reduzindo contenção em filas"
+      ],
+      "keywords": [
+        "Java 8–21",
+        "Spring Boot",
+        "Redis",
+        "Kafka",
+        "Oracle",
+        "MySQL",
+        "Azure Service Bus",
+        "Azure KeyVault",
+        "Microservices",
+        "Asynchronous Architecture",
+        "Performance Optimization"
+      ]
+    },
+    {
+      "name": "Aubay Portugal",
+      "position": "Desenvolvedor de Software",
+      "startDate": "2019-11",
+      "endDate": "2020-05",
+      "location": "Lisboa, Portugal",
+      "summary": "Desenvolvimento, testes e otimização de software Java.",
+      "highlights": [
+        "Desenvolvi e implementei testes unitários com análise de cobertura via Jacoco.",
+        "Realizei testes de conformidade funcional utilizando BDD.",
+        "Elaborei planos de conversão e gerenciei implementações de sistemas (go-live).",
+        "Corrigi e atualizei softwares Java 8~13 para aprimorar desempenho e eficiência.",
+        "Modelei dados (JPA para Native), otimizei performance com k6 e conduzi testes de integração e2e."
+      ],
+      "keywords": [
+        "Java 8–13",
+        "Spring Boot",
+        "Kubernetes",
+        "Testing",
+        "Performance Optimization",
+        "Data Modeling"
+      ]
+    },
+    {
+      "name": "AGE Technology",
+      "position": "Desenvolvedor Java Sênior",
+      "startDate": "2018-11",
+      "endDate": "2019-11",
+      "location": "Santos, São Paulo, Brasil",
+      "summary": "Desenvolvimento e otimização de sistemas Java.",
+      "highlights": [
+        "Colaborei com gerentes, engenheiros e suporte para esclarecer requisitos e sugerir melhorias.",
+        "Desenvolvi novas rotinas para importação e exportação de dados, melhorando velocidade e satisfação dos clientes.",
+        "Modifiquei e otimizei rotinas existentes para corrigir erros e melhorar o desempenho."
+      ],
+      "keywords": [
+        "Java 7",
+        "Struts",
+        "JDBC",
+        "MySQL",
+        "SOAP",
+        "Web Services"
+      ]
+    },
+    {
+      "name": "Amazon",
+      "position": "Warehouse Associate",
+      "startDate": "2016-09",
+      "endDate": "2017-11",
+      "location": "Vancouver, Canadá",
+      "summary": "Operações de armazém com foco em eficiência e melhoria de processos.",
+      "highlights": [
+        "Transformei prioridades da empresa em ações práticas e implementáveis.",
+        "Utilizei gap analysis para identificar processos ineficientes e aplicar medidas corretivas.",
+        "Mapeei processos e atividades atuais, definindo os resultados desejados para reduzir ineficiências.",
+        "Simplifiquei o fluxo de trabalho ao alinhar objetivos da empresa com iniciativas criativas."
+      ]
+    },
+    {
+      "name": "Câmara de Comercialização de Energia Elétrica (CCEE)",
+      "position": "Desenvolvedor Java Sênior",
+      "startDate": "2014-09",
+      "endDate": "2015-05",
+      "location": "São Paulo, Brasil",
+      "summary": "Desenvolvimento de sistemas e levantamento de requisitos.",
+      "highlights": [
+        "Atendi clientes e coletei requisitos diretamente durante visitas locais, garantindo a compreensão e a integração das necessidades no desenvolvimento.",
+        "Realizei brainstorming de soluções técnicas e fluxo de trabalho com clientes, desenvolvedores e analistas para criar soluções eficazes e alinhadas com os objetivos do projeto.",
+        "Defini tarefas e forneci estimativas de tempo para apoiar a gestão do projeto e assegurar o cumprimento dos prazos estabelecidos."
+      ],
+      "keywords": [
+        "Java",
+        "Spring MVC",
+        "JSF",
+        "jQuery",
+        "Hibernate",
+        "JPA",
+        "Oracle",
+        "REST",
+        "WebLogic"
+      ]
+    },
+    {
+      "name": "Grupo Empresarial Palma",
+      "position": "Desenvolvedor Java Sênior",
+      "startDate": "2013-01",
+      "endDate": "2013-03",
+      "location": "São Paulo, Brasil",
+      "summary": "Desenvolvimento de componentes reutilizáveis e arquitetura base para aplicações corporativas multicanal.",
+      "highlights": [
+        "Criei modelo de projeto base para padronização e integração entre sistemas corporativos.",
+        "Desenvolvi componentes reutilizáveis para autenticação, segurança, acesso a banco de dados e logging.",
+        "Colaborei no desenvolvimento de sistema de Ponto de Venda (PDV) utilizado por outras equipes.",
+        "Participei da modelagem de aplicação multicanal voltada para desktop, mobile e web."
+      ],
+      "keywords": [
+        "Java",
+        "Spring",
+        "Hibernate",
+        "JPA",
+        "PostgreSQL",
+        "JSF",
+        "JBoss",
+        "Tomcat"
+      ]
+    },
+    {
+      "name": "Smart Software Brasil",
+      "position": "Senior Java Backend Engineer / Technical Lead",
+      "startDate": "2011-10",
+      "endDate": "2012-05",
+      "location": "São Paulo, Brasil",
+      "summary": "Liderança técnica e desenvolvimento de soluções corporativas customizadas em parceria com a Red Hat.",
+      "highlights": [
+        "Atuei na liderança técnica de projetos backend em Java, participando da definição de requisitos e arquitetura das soluções.",
+        "Transformei requisitos de negócio em especificações funcionais e técnicas para desenvolvimento das aplicações.",
+        "Realizei integração entre equipes técnicas e clientes durante levantamento de requisitos e definição de fluxos.",
+        "Mantive e monitorei infraestrutura de servidores para garantir estabilidade e disponibilidade dos sistemas."
+      ],
+      "keywords": [
+        "Java",
+        "Spring",
+        "Hibernate",
+        "JPA",
+        "REST",
+        "Liferay",
+        "Oracle",
+        "MySQL",
+        "JBoss"
+      ]
+    },
+    {
+      "name": "DocuSign (ex-Comprova)",
+      "position": "Senior Java Backend Engineer",
+      "startDate": "2010-12",
+      "endDate": "2011-10",
+      "location": "São Paulo, Brasil",
+      "summary": "Desenvolvimento de soluções de assinatura digital para setores bancário e corporativo.",
+      "highlights": [
+        "Desenvolvi plug-in de assinatura digital com regras e fluxos específicos para integração bancária.",
+        "Participei da construção de plataforma de assinatura digital baseada em serviços REST e SOA.",
+        "Atuei na integração entre sistemas corporativos e mecanismos de assinatura criptográfica.",
+        "Colaborei em processos de validação, homologação e pós-implantação das soluções."
+      ],
+      "keywords": [
+        "Java",
+        "Spring",
+        "Hibernate",
+        "JDBC",
+        "REST",
+        "SOA",
+        "BouncyCastle",
+        "Oracle",
+        "JBoss",
+        "WebLogic"
+      ]
+    },
+    {
+      "name": "Ultreia Consultoria",
+      "position": "Java Backend Developer",
+      "startDate": "2010-02",
+      "endDate": "2010-10",
+      "location": "São Paulo, Brasil",
+      "summary": "Desenvolvimento de sistemas corporativos para gestão e registro de produtos.",
+      "highlights": [
+        "Desenvolvi sistema para controle de processos e lançamento de novos produtos.",
+        "Implementei geração automatizada de documentação regulatória a partir dos dados do sistema.",
+        "Desenvolvi funcionalidade de digitalização e importação de documentação física para o ambiente eletrônico.",
+        "Implementei controle de versionamento de dados conforme requisitos regulatórios."
+      ],
+      "keywords": [
+        "Java",
+        "PostgreSQL",
+        "JDBC",
+        "Flex",
+        "BlazeDS",
+        "Tomcat",
+        "JBoss"
+      ]
+    },
+    {
+      "name": "BSI Tecnologia",
+      "position": "Java Backend Developer",
+      "startDate": "2009-08",
+      "endDate": "2010-01",
+      "location": "São Paulo, Brasil",
+      "summary": "Desenvolvimento de sistema de simulação e análise de detecção de fraude para o setor financeiro.",
+      "highlights": [
+        "Desenvolvi simulador web de detecção de fraude com processamento assíncrono para validação de ordens de serviço.",
+        "Implementei sistema de parametrização para análise comparativa e validação de cenários de fraude.",
+        "Participei da integração entre sistemas corporativos e serviços financeiros."
+      ],
+      "keywords": [
+        "Java",
+        "Spring",
+        "Hibernate",
+        "Oracle",
+        "DB2",
+        "SOAP",
+        "JSF",
+        "WebSphere"
+      ]
+    },
+    {
+      "name": "Auster Solutions do Brasil",
+      "position": "Junior Java Backend Developer",
+      "startDate": "2008-05",
+      "endDate": "2009-07",
+      "location": "São Paulo, Brasil",
+      "summary": "Desenvolvimento de sistemas corporativos para o setor de telecomunicações.",
+      "highlights": [
+        "Desenvolvi sistema de validação de faturamento baseado em regras de negócio utilizando Drools.",
+        "Participei da construção de sistema para controle e gestão de numeração telefônica.",
+        "Desenvolvi painel de indicadores (KPI) para monitoramento de desempenho de sistemas e serviços."
+      ],
+      "keywords": [
+        "Java",
+        "Spring",
+        "Hibernate",
+        "Oracle",
+        "JPA",
+        "Batch Processing",
+        "Web Services",
+        "JSF",
+        "WebLogic"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Anhembi Morumbi Laureate International University",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science (B.S.)",
+      "startDate": "2005",
+      "endDate": "2009",
+      "location": "São Paulo, Brasil"
+    },
+    {
+      "institution": "Canadian College",
+      "area": "Business Fundamentals",
+      "studyType": "Diploma",
+      "startDate": "2016-07",
+      "endDate": "2018-06",
+      "location": "Canadá"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Associate AWS Certified Solutions Architect",
+      "issuer": "Amazon Web Services (AWS)",
+      "url": "https://www.credly.com/badges/25080c00-a267-49c3-b34a-cb04becd9129/linked_in_profile"
+    },
+    {
+      "name": "Associate AWS Certified Developer",
+      "issuer": "Amazon Web Services (AWS)",
+      "url": "https://www.credly.com/badges/7c561204-106d-47f5-9fdc-e1e5f9ae56b4/linked_in_profile"
+    },
+    {
+      "name": "Azure AI Fundamentals",
+      "issuer": "Microsoft",
+      "url": "https://learn.microsoft.com/api/credentials/share/pt-br/audryus/DC19734280334FE?sharingId"
+    },
+    {
+      "name": "Google AI Essentials",
+      "issuer": "Google",
+      "url": "https://www.coursera.org/account/accomplishments/records/MZ59Q3H2FV46"
+    },
+    {
+      "name": "Data Scientist with Python Track",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/statement-of-accomplishment/track/1f1d471db549300160f764dae72ac455af6dc201"
+    },
+    {
+      "name": "Data Analyst with Python Track",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/statement-of-accomplishment/track/4fd91e595d573de1150f8c3e834f021673de5314"
+    },
+    {
+      "name": "PMI Shift Gestão de Projetos",
+      "issuer": "FIAP"
+    },
+    {
+      "name": "Lean Six Sigma Green Belt",
+      "issuer": "Simplilearn",
+      "url": "https://certificates.simplicdn.net/share/thumb_235917.png"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Backend Engineering",
+      "keywords": [
+        "Java (6–21)",
+        "Go (Golang)",
+        "REST APIs",
+        "Microservices",
+        "High-performance systems"
+      ]
+    },
+    {
+      "name": "Distributed Systems",
+      "keywords": [
+        "Kafka",
+        "Event-driven architecture",
+        "Asynchronous processing",
+        "Scalability",
+        "Resilience"
+      ]
+    },
+    {
+      "name": "Cloud & Infrastructure",
+      "keywords": [
+        "AWS (Lambda, ECS Fargate, API Gateway, DynamoDB, SQS)",
+        "Docker",
+        "Kubernetes",
+        "Azure"
+      ]
+    },
+    {
+      "name": "Observability & Reliability",
+      "keywords": [
+        "OpenTelemetry (Tracing, Metrics, Logging)",
+        "Monitoring",
+        "Performance tuning",
+        "Jacoco",
+        "SonarQube",
+        "Veracode"
+      ]
+    },
+    {
+      "name": "Data & Storage",
+      "keywords": [
+        "DynamoDB",
+        "PostgreSQL",
+        "MySQL",
+        "Oracle",
+        "Redis"
+      ]
+    },
+    {
+      "name": "Testing & Quality",
+      "keywords": [
+        "TDD",
+        "BDD",
+        "Integration Testing",
+        "k6",
+        "Pentesting"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Português",
+      "fluency": "Native",
+      "fluencyDisplay": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced",
+      "fluencyDisplay": "Professional"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Preço Limpo",
+      "description": "Plataforma para transparência tributária, permitindo visualizar o imposto real embutido em produtos e serviços.",
+      "highlights": [
+        "Implementação de lógica para cálculo do imposto efetivo a partir de valores agregados",
+        "Aplicação leve e responsiva com foco no client-side"
+      ],
+      "keywords": [
+        "JavaScript",
+        "HTML",
+        "Tailwind CSS",
+        "DaisyUI",
+        "Frontend",
+        "Data Modeling",
+        "Performance"
+      ],
+      "url": "https://precolimpo.cc"
+    },
+    {
+      "name": "Stegano.cc",
+      "description": "Ferramenta web para esteganografia, permitindo ocultar e extrair dados em imagens com foco em privacidade.",
+      "highlights": [
+        "Implementação de algoritmos de esteganografia para ocultação de dados em imagens"
+      ],
+      "keywords": [
+        "Go",
+        "HTMx",
+        "Alpine.js",
+        "JavaScript",
+        "Security",
+        "Steganography",
+        "Web Application",
+        "Cryptography"
+      ],
+      "url": "https://stegano.cc"
+    }
+  ]
+}
