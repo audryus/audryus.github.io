@@ -7,8 +7,8 @@
   "basics": {
     "name": "Audryus Leite",
     "label": "Senior Backend Engineer | Sistemas Distribuídos | Java & Go",
-    "email": "audryus@gmail.com",
-    "phone": "+55 13 996644165",
+    "email": "",
+    "phone": "",
     "summary": "Senior Backend Engineer com mais de 15 anos de experiência projetando e evoluindo sistemas distribuídos de alta demanda, com foco em performance, escalabilidade e resiliência.\n\nEspecializado na construção de APIs e microsserviços em Java e Go, com forte experiência em processamento assíncrono, mensageria e integração entre sistemas. Ao longo da carreira, lidei com cenários reais de alto volume, otimizando sistemas críticos e implementando soluções para controle de concorrência, filas e cache.\n\nExperiência sólida em cloud (AWS e Azure), incluindo Lambda, ECS Fargate, DynamoDB, SQS e observabilidade com OpenTelemetry. Forte atuação em identificação de gargalos, simplificação arquitetural e melhoria contínua de sistemas legados.",
     "location": {
       "city": "Santos",
@@ -98,21 +98,15 @@
       "location": "Lisboa, Portugal",
       "summary": "Desenvolvimento, testes e otimização de aplicações Java para clientes corporativos.",
       "highlights": [
-        "Desenvolvimento e implementação de testes unitários com análise de cobertura via Jacoco",
-        "Validação funcional com metodologia BDD, garantindo conformidade com requisitos de negócio",
-        "Elaboração de planos de conversão e condução de go-live em ambientes de produção",
-        "Manutenção e atualização de aplicações Java 8–13 para aprimoramento de desempenho e estabilidade",
-        "Otimização de estratégias de acesso a dados (JPA para SQL nativo), testes de performance com k6 e execução de testes de integração end-to-end"
+        "Desenvolvimento e implementação de testes unitários com análise de cobertura via JaCoCo",
+        "Elaboração de planos de conversão e gerenciamento de go-live para integração em produção",
+        "Correção e atualização de aplicações Java 8–13 para melhoria de desempenho e eficiência"
       ],
       "keywords": [
         "Java 8–13",
         "Spring Boot",
         "Kubernetes",
-        "BDD",
-        "Testes de Performance",
-        "k6",
-        "Jacoco",
-        "Modelagem de Dados"
+        "GitOps"
       ]
     },
     {
